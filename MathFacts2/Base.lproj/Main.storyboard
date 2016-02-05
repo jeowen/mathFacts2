@@ -66,15 +66,23 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ckR-iA-BsU">
+                                <rect key="frame" x="20" y="271" width="337" height="52"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.11867804275526278" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="j5b-w0-cdE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="3uQ-q7-1fG"/>
+                            <constraint firstItem="ckR-iA-BsU" firstAttribute="top" secondItem="G6V-0v-Eq3" secondAttribute="bottom" id="5qa-6w-tmP"/>
                             <constraint firstItem="njE-UF-p0B" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="7Xw-De-ilh"/>
                             <constraint firstItem="N1m-Rz-zf1" firstAttribute="centerX" secondItem="W91-5e-hce" secondAttribute="centerX" id="8eU-mF-5JU"/>
                             <constraint firstItem="njE-UF-p0B" firstAttribute="leading" secondItem="j5b-w0-cdE" secondAttribute="trailing" id="JLK-Hz-nad"/>
                             <constraint firstItem="hEw-Tb-bYa" firstAttribute="leading" secondItem="N1m-Rz-zf1" secondAttribute="trailing" constant="15" id="KQ7-CG-pdU"/>
                             <constraint firstItem="W91-5e-hce" firstAttribute="top" secondItem="j5b-w0-cdE" secondAttribute="bottom" constant="-25" id="Krq-18-wNy"/>
+                            <constraint firstItem="ckR-iA-BsU" firstAttribute="centerX" secondItem="G6V-0v-Eq3" secondAttribute="centerX" id="RE6-u3-eHK"/>
                             <constraint firstItem="G6V-0v-Eq3" firstAttribute="centerX" secondItem="hEw-Tb-bYa" secondAttribute="centerX" id="Vv9-zA-bJE"/>
                             <constraint firstItem="G6V-0v-Eq3" firstAttribute="top" secondItem="hEw-Tb-bYa" secondAttribute="bottom" constant="24" id="WaT-ao-AxZ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="njE-UF-p0B" secondAttribute="trailing" constant="2" id="cch-bR-NQk"/>
@@ -89,6 +97,7 @@
                         <outlet property="guessResult" destination="njE-UF-p0B" id="Edj-rc-3Kc"/>
                         <outlet property="number1" destination="j5b-w0-cdE" id="nfO-w3-Y8J"/>
                         <outlet property="number2" destination="aPF-9Q-aWM" id="dxn-aT-K51"/>
+                        <outlet property="scoreResults" destination="ckR-iA-BsU" id="QZr-CE-4Q1"/>
                         <outlet property="userGuess" destination="hEw-Tb-bYa" id="y3D-fZ-MbL"/>
                     </connections>
                 </viewController>

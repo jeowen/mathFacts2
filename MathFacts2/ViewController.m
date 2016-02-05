@@ -42,6 +42,10 @@
     // BELOW WORKS FOR REMOVING KEYBOARD FROM VIEW
     // [self.view endEditing:YES];
     
+    
+    // update # of guesses
+    self.userTotalNumberGuesses++;
+    
     // get value of userGuess and compare with actual product
     
     int i = self.number1.text.intValue;
@@ -54,11 +58,17 @@
         // NEXT STEP:  generate SUCCESS result from array of possible values
         self.guessResult.textColor = [UIColor greenColor];
         self.guessResult.text = @"CORRECT!!";
+        // update # of guesses correct
+        self.userScore++;
+        self.scoreResults.textColor = [UIColor whiteColor];
+        self.scoreResults.text = [NSString stringWithFormat: @"Your score: %d, numGuesses = %d", self.userScore, self.userTotalNumberGuesses];
     }
     else{
         // NEXT STEP: generate incorrect result from array of possible values
         self.guessResult.textColor = [UIColor redColor];
         self.guessResult.text = @"Nope :( ";
+        self.scoreResults.textColor = [UIColor whiteColor];
+        self.scoreResults.text = [NSString stringWithFormat: @"Your score: %d, numGuesses = %d", self.userScore, self.userTotalNumberGuesses];
     }
     
     // clear previous text entry

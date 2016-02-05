@@ -15,6 +15,14 @@
 @property (weak, nonatomic) IBOutlet UITextField *userGuess;
 @property (weak, nonatomic) IBOutlet UILabel *guessResult;
 
+@property (nonatomic, assign) NSInteger userScore;
+@property (nonatomic, assign) NSInteger userTotalNumberGuesses;
+
+@property (weak, nonatomic) IBOutlet UILabel *scoreResults;
+
+
+
+
 // get ready to manage CORE DATA :)
 @property (nonatomic,strong) NSManagedObjectContext* managedObjectContext;
 

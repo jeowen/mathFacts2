@@ -16,6 +16,7 @@
 		560568D71C6500E3003200BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 560568D51C6500E3003200BE /* LaunchScreen.storyboard */; };
 		560568E21C6500E3003200BE /* MathFacts2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 560568E11C6500E3003200BE /* MathFacts2Tests.m */; };
 		560568ED1C6500E3003200BE /* MathFacts2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 560568EC1C6500E3003200BE /* MathFacts2UITests.m */; };
+		56AC6AF11C6529C700F3B337 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 56AC6AEF1C6529C700F3B337 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		560568E81C6500E3003200BE /* MathFacts2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathFacts2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		560568EC1C6500E3003200BE /* MathFacts2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathFacts2UITests.m; sourceTree = "<group>"; };
 		560568EE1C6500E3003200BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56AC6AF01C6529C700F3B337 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				560568C81C6500E3003200BE /* AppDelegate.m */,
 				560568CA1C6500E3003200BE /* ViewController.h */,
 				560568CB1C6500E3003200BE /* ViewController.m */,
+				56AC6AEF1C6529C700F3B337 /* Model.xcdatamodeld */,
 				560568CD1C6500E3003200BE /* Main.storyboard */,
 				560568D31C6500E3003200BE /* Assets.xcassets */,
 				560568D51C6500E3003200BE /* LaunchScreen.storyboard */,
@@ -275,6 +278,7 @@
 			files = (
 				560568D21C6500E3003200BE /* MathFacts2.xcdatamodeld in Sources */,
 				560568CC1C6500E3003200BE /* ViewController.m in Sources */,
+				56AC6AF11C6529C700F3B337 /* Model.xcdatamodeld in Sources */,
 				560568C91C6500E3003200BE /* AppDelegate.m in Sources */,
 				560568C61C6500E3003200BE /* main.m in Sources */,
 			);
@@ -502,6 +506,7 @@
 				560568F31C6500E3003200BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		560568F41C6500E3003200BE /* Build configuration list for PBXNativeTarget "MathFacts2Tests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +515,7 @@
 				560568F61C6500E3003200BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		560568F71C6500E3003200BE /* Build configuration list for PBXNativeTarget "MathFacts2UITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +524,7 @@
 				560568F91C6500E3003200BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -529,6 +536,16 @@
 			);
 			currentVersion = 560568D11C6500E3003200BE /* MathFacts2.xcdatamodel */;
 			path = MathFacts2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		56AC6AEF1C6529C700F3B337 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				56AC6AF01C6529C700F3B337 /* Model.xcdatamodel */,
+			);
+			currentVersion = 56AC6AF01C6529C700F3B337 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
